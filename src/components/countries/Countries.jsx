@@ -21,7 +21,7 @@ const Countries = () => {
     return (
         <div>
             <h2>Countries : {countries.length}</h2>
-            <div>
+            <div className="visited-country-list">
                 <h3>Visited Country: {visitedCountries.length} </h3>
                 <ul>
                     {
